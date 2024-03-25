@@ -1,0 +1,249 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ 
+ 
+button{
+    color: white;
+}
+ 
+#Footer {
+    text-align: center;
+    margin: 200px;
+    padding: 0px;
+    height: 15%
+}
+ 
+footer p {
+    margin-left: 40px;
+}
+ 
+#copyrightInformation {
+    font-size: 12px;
+    margin-top: 20px;
+}
+   
+ 
+ 
+#left {
+    margin-left: 150px;
+    float: left;
+}
+ 
+#left input{
+    margin-left: 20px;
+   margin-top: 20px;
+   width: 150px;
+   height: 28x;
+}
+ 
+ 
+ 
+#right{
+    margin-right: 250px;
+    float: right;
+}
+ 
+ 
+ 
+ 
+#right input{
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+}
+ 
+ 
+ 
+#callWS{
+    margin-top: 30px;
+    color: white;
+    border-radius: 9px;
+    border: none;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(58, 190, 161);
+}
+ 
+ 
+#right2{
+    margin-top: 100px;
+    margin-right: 100px;
+    float: right;
+}
+ 
+#right2 input {
+margin-left: 20px;
+margin-top: 40px;
+width: 150px;
+height: 30px;
+ 
+ 
+}
+ 
+ 
+#right button{
+    width: 200px;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    background-color: rgb(60, 23, 194);
+}
+ 
+#properties{
+margin-top: 100px;
+margin-left: 150px;
+}
+ 
+#properties button{
+    height: 40px;
+    border: none;
+    width: 100px;
+    border-radius: 9px;
+    background-color:  rgb(52, 177, 255);
+}
+ 
+#right3{
+    margin-right: 250px;
+    float: right;
+    background-color: rgb(60, 23, 194);
+    border-radius: 9px;
+    border: none;
+    width: 200px;
+    height: 40px;
+}
+ 
+#right3 a{
+    color: white;
+}
+ 
+ 
+ 
+/* Workspace Info       */
+ 
+img{
+margin-bottom: 90px;
+width: 300px;
+height: 200px;
+}
+ 
+#WorkInfo{
+    width: 100%;
+height: 100%;
+}
+ 
+#Register{
+   text-align: center;
+}
+ 
+ 
+ 
+#Footer p{
+   display: inline-block;
+   }
+ 
+   li{
+    margin-left: 60px;
+   }
+ 
+ 
+#Interest{
+    margin-right: 320px;
+    float: right;
+}
+ 
+#Interest h4{
+    font-size: 20px;
+}
+ 
+#Interest button {
+    margin-top: 20px;
+    height: 40px;
+    border: none;
+    border-radius: 9px;
+   background-color: brown;
+}
+ 
+#Interest a{
+color: white;
+}
+ 
+#numerousOfficeInfo{
+    margin-left: 200px;
+}
+ 
+#backToLoginPage3 {
+    margin-left: 190px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 9px;
+    background-color: rgb(60, 23, 194);
+ 
+}
+#backToLoginPage3 a{
+color: white;
+}
+ 
+#Register table{
+    margin-top: 40px;
+    margin-left: 600px;
+    margin-bottom: 20px;
+}
+ 
+#Register td input{
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+}
+ 
+ 
+#Login{
+ border-radius: 9px;
+margin-left: 100px;
+border: none;
+ margin-bottom: 50px;
+ width: 60px;
+ height: 30px;
+ background-color: purple;
+}
+ 
+ 
+#coworkerOption{
+    border-radius: 9px;
+    border: none;
+    width: 220px;
+    height: 50px;
+    background-color: rgb(52, 177, 255);
+}
+ 
+#coworkerOption a{
+    color: white;
+}
+ 
+ 
+#coworkerOption a{
+    color: white;
+}
+ 
+#ownerOption {
+    border-radius: 9px;
+    border: none;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(58, 190, 161);
+}
+#ownerOption a{
+    color: white;
+}
+ 
+#checkOut{
+margin-left: 150px;
+}
+ 
+ 
+#checkOut u{
+margin-left: 25px;
+}
