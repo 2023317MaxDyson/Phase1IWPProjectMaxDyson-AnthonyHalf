@@ -4,72 +4,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Login Page  </title>
+    <title>Login Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1> UR Office </h1>
-    <hr>
-</br>
-</br>
-</br>
-</br>
-</br>
-    <div id="Register">
-    <h3> Your first time? </br> Register for free! </h3>
-    <form>
-</br>
-<!-- Coworker option-->
-<button id="coworkerOption"> <a href="./CoworkersPage.html"> Register as an Office Space User </a> </button>
-</br> 
-</br>
-</br>
-<h3> Or Maybe You Have an Office Space </br> That You ar Willing to Rent Out </h3>
-</br>
-<!-- Owner option-->
-<button id="ownerOption"> <a href="./ApplicationPage.html"> Register to be an Owner of Rentable Units </a> </button>
-</br>
-</br>
-</br>
-</br>
-      <h4>  Existing Owners and Users </br> Login Here  </h4>
-    <table id="loginForm">
-  <tr>
-      <td>
-     <label> User Name: </label>
-       </td>
-       <td>
-       <input type="text" name="Name"  required > 
-       </td>
-  </tr>
-    <tr>
-       <td> 
-        <label for="Password"> Password:  </label>
-      </td>
-   <td> 
-    <input type="text" name="Password" required > 
-   </td>
-    </tr>
-    </table>
-    <button id="Login"> Login </button>
-  </div>
-    <div id="checkOut">
-    <h5> Check Out the </br> Office Features </br> That are Available </h5>
-  </br>
-    <a href="WorkspaceInfo.html"> <u> HERE </u> </a>
+  <header>
+    <div class="header">
+        <h1>UR Office</h1>  
     </div>
-    </form>
-    <div id="Footer">
-    <hr>
-    <footer>
-        <p style="color:blue;"> <u>  About Us </u> </p>
-        <p style="color:blue;"> <u>  Location: Calgary, Alberta </u> </p>
-        <p>  Copyright @ 2024 </p>
-        <p id="copyrightInformation"> <b> We reserve the right to refuse anyone from doing business with us.</br>
-            Damage to a unit will result in added cost and even criminial charges being laid. </br>
-            Background check is done on both owners and coworkers.</b> </p>
-      </footer>
-      </div>
+  </header>
+
+  <!-- Navigation Bar -->
+  <nav class="nav">
+    <h2>Login Page</h2>
+  </nav>
+
+  <div id="Register">
+    <p>Your first time?</p>    
+    <p>Register for free!</p>
+  </div>
+
+<!-- Coworker Option-->
+  <div id="coworker">
+    <button id="coworkerOption"> <a href="./Register@Signup.html"> Register as an Office Space User </a> </button>
+  </div>
+
+  <div id="Register">
+    <p>Or Maybe You Have an Office Space</p>
+    <p>That You ar Willing to Rent Out</p>
+  </div>
+
+<!-- Owner Option-->
+  <div id="owner">
+    <button id="ownerOption"> <a href="./Register@SignUp.html"> Register to be an Owner of Rentable Units </a> </button>
+  </div>
+
+<!-- Login Form 
+  <form action="/login" method="post"> -->
+    <div class="box">
+      <h2>Existing Owners and Users</h2>
+      <h2>Login Here</h2>
+      <input type="text" placeholder="Username"/>
+      <input type="text" placeholder="Password"/>
+      <button><a href="./Coworker@Owner.html">Login</a></button>
+    </div>
+  <!--</form>-->
+
+  
+
+
+
+
+  <footer>
+    <div class="footer">
+        <p>&copy; 2024</p>
+        <p id="copyright"><b>We reserve the right to refuse anyone from doing business with us.
+            Damage to a unit will result in added cost and even criminial charges being laid.  
+            Background check is done on both owners and coworkers.</b></p> 
+    </div>  
+  </footer>
+  
 </body>
 </html>

@@ -1,44 +1,382 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+    margin: 0;
 } 
 
-
-
-h1{
-    padding: 15px;
-    font-size: 70px;
-    text-align: center;
-    color: orange;
+body {
+    background-color: indigo;
+    min-height: 100vh;
 }
 
 
-button{
+/* Header and Navigation */
+
+.header {
+    padding: 10px;
+    font-size: 50px;
+    text-align: center;
+    color:firebrick;
+}
+
+.nav {
+    background-color:red; 
+    opacity: 0.5;
+    list-style-type: none;
+    text-align: right;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.nav h2 {
+    padding-top: 15px;
+    text-align: center;
+}
+
+
+/* Landing Page */
+
+.first {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.messy {
+    width: initial;
+    height: 30%;
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+}
+
+.second {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.third {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.clean {
+    width: initial;
+    height: 30%;
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+}
+
+.fourth {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.fifth {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.loginButton {
+    background-color: blue;
+    border-radius: 9px;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    width: 10%;
+    height: 60px;
+    font-size: large;
+}
+.loginButton:hover {
+    background-color: green;
+}
+
+.loginLink {
     color: white;
 }
 
+/* Footer */
 
 
-#Footer p{
-    display: inline-block;
-    }
+footer {
+    margin-bottom: 0;
+}
 
-#Footer{
+.footer {
+    width: 100%;
+    background-color: red;
+    color: white;
+    opacity: 0.5;
+    height: 60px;
+}
+
+.footer p {
     text-align: center;
-   margin: 200px;
-   padding: 0px;
-   }
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 
-   footer p{
-    margin-left: 40px;
-   }
-
-   #copyrightInformation{
+#copyright {
     font-size: 12px;
-    margin-top: 20px;
-   }
-   
+}
 
+
+/* Login Page */
+
+#Register {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+#coworker {
+    text-align: center;
+}
+
+#coworkerOption { 
+    text-align: center;
+    font-size: large;
+    border-radius: 9px;
+    border: none;
+    width: 220px;
+    height: 60px;
+    background-color: rgb(52, 177, 255);
+}
+
+#coworkerOption a {
+    color: black;
+}
+
+#owner {
+    text-align: center;
+}
+
+#ownerOption {
+    text-align: center;
+    font-size: large;
+    border-radius: 9px;
+    border: none;
+    width: 15%;
+    height: 60px;
+    background-color: rgb(58, 190, 161);
+    margin-bottom: 3%;
+}
+
+#ownerOption a {
+    color: darkslategray;
+}
+
+.box {
+    margin: 0  auto;
+    height: 10%;
+    width: 20%;
+    color: black;
+    background:slateblue;
+    padding: 30px 0px;
+}
+
+.box h2 {
+    text-align:center;
+    font-size:25px;
+}
+
+.box input {
+    display:block;
+    width:80%;
+    margin:20px auto;
+    padding:15px;
+    background:rgba(0,0,0,0.2);
+    color: white;
+    border:0;
+}
+
+.box input:focus,.box input:active,.box button:focus,.box button:active{
+    outline:none;
+}
+
+.box button{
+    background:#2ecc71;
+    border:0;
+    color:#fff;
+    padding:10px;
+    font-size:20px;
+    width:90%;
+    margin:20px auto;
+    display:block;
+    cursor:pointer;
+}
+
+
+/* Coworker & Owner Page */
+
+.container {
+    border-radius: 12px;
+    margin-top: 7%;
+    margin-right: auto;
+    margin-bottom: 7%;
+    margin-left: auto;
+    height: 10%;
+    width: 20%;
+    color: black;
+    background: firebrick;
+    padding: 5%;
+    text-align: center;
+}
+
+.coworker, .owner {
+    width: 80%;
+    height: 40px;
+    font-size: larger;
+    border: darkcyan;
+    border-radius: 5px;
+    background-color: darkcyan;
+    margin-bottom: 4%;
+}
+
+button a {
+    color: black;
+}
+
+
+/* Coworkers Page */
+
+#lefty {
+    float: left;
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 18%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#righty {
+    float: right;
+    width: 30%;
+    margin-top: 5%;
+    margin-right: 18%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.left, .right {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.left tr {
+    margin-bottom: 4%;
+}
+
+.left tr th {
+    text-align: left;
+    width: 50%;
+}
+
+.left tr td input {
+    width: 90%;
+}
+
+.right tr {
+    margin-bottom: 4%;
+}
+
+.right tr th {
+    text-align: left;
+    width: 65%;
+}
+
+.right tr td input {
+    width: 70%;
+}
+
+main::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.center {
+    margin-top: 3%;
+    margin-bottom: 7%;
+    text-align: center;
+}
+
+.center button {
+    width: 15%;
+    height: 60px;
+    font-size: large;
+    border-radius: 9px;
+    border: none;
+    background-color: crimson;
+}
+
+
+/* Owner's Page */
+
+.right .addon th {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.right .options td {
+    text-align: center;
+}
+
+/* Register Sign Up Page */
+
+.form {
+    margin-top: 8%;
+    margin-right: auto;
+    margin-bottom: 7%;
+    margin-left: auto;
+    height: 15%;
+    width: 30%;
+    color: black;
+    background: slateblue;
+    padding: 3%;
+}
+
+.form table {
+    padding-top: 7%;
+    padding-left: 21%;
+    text-align: left;
+}
+
+#submit {
+    font-size: large;
+    margin-top: 10%;
+    width: 50%;
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 
 #left{
     margin-left: 120px;
@@ -47,9 +385,9 @@ button{
 
 #left input{
     margin-left: 20px;
-   margin-top: 20px; 
-   width: 150px;
-   height: 30px;
+    margin-top: 20px; 
+    width: 150px;
+    height: 30px;
 }
 
 
@@ -97,7 +435,7 @@ height: 30px;
 }
 
 
-#right button{
+ #right button{
     width: 200px;
     height: 40px;
     color: white;
@@ -137,28 +475,20 @@ margin-left: 150px;
 
 
 
-img{
-margin-bottom: 90px;
-width: 300px;
-height: 200px;
-}
+
 
 #WorkInfo{
     width: 100%;
 height: 100%;
 }
 
-#Register{
-   text-align: center;
-}
 
 
 
 
 
-   li{
-    margin-left: 60px;
-   }
+
+
 
 
 #Interest{
@@ -212,44 +542,24 @@ color: white;
 }
 
 
-#Login{
- border-radius: 9px;
-margin-left: 100px;
-border: none;
- margin-bottom: 50px;
- width: 60px;
- height: 30px;
- background-color: purple;
-}
-
-
-#coworkerOption{
+#Login {
     border-radius: 9px;
+    margin-left: 100px;
     border: none;
-    width: 220px;
-    height: 50px;
-    background-color: rgb(52, 177, 255);
-}
-
-#coworkerOption a{
-    color: white;
+    margin-bottom: 50px;
+    width: 60px;
+    height: 30px;
+    background-color: purple;
 }
 
 
-#coworkerOption a{
-    color: white;
-}
 
-#ownerOption {
-    border-radius: 9px;
-    border: none;
-    width: 300px;
-    height: 50px;
-    background-color: rgb(58, 190, 161);
-}
-#ownerOption a{
-    color: white;
-}
+
+
+
+
+
+
 
 #checkOut{
 margin-left: 150px;
@@ -259,3 +569,4 @@ margin-left: 150px;
 #checkOut u{
 margin-left: 25px;
 }
+*/

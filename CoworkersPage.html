@@ -1,203 +1,180 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Coworker Page</title>
-  <link rel="stylesheet" href="style1.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coworker Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
- 
+
 <body>
     <header>
-        <h1 id="title" style="text-align: center;
-                                padding: 15px;
-                                font-size: 70px;
-                                text-align: center;
-                                color: orange;">UR Office</h1>  
+        <div class="header">
+            <h1>UR Office</h1>  
+        </div>
     </header>
- 
-    <main>
- 
-    <table id="left">
-        <form>
-            <tr>
-                <!-- Name for the property search -->
-                <td>
-                    <label for="Name">Search for property: </label>
-                </td>
-                <td>
-                    <input type="text" name="property-search" >
-                </td>
-            </tr>
-                <!-- Property address -->
-            <tr>
-                <td>
-                    <label for="propertyAddress"> Enter property address: </label>
-                </td>
-                <td>
-                    <input type="text" name="propertyAdress" >
-                </td>
-            </tr>
-      </br>
-      <!-- Neighbourhood -->
-      <tr>
-        <td>
-          <label for="Neighbourhood">Search for Neighbourhood: </label>
-        </td>
-        <td>
-          <input type="text" name="Neighbourhood" >
-        </td>
-      </tr>
- 
-      <tr>
-        <td>
-          <label for="SF"> Square Footage Required: </label>
-        </td>
-        <td>
-          <input type="text" name="SF">
-        </td>
-      </tr>
-      <tr>
-        <td><label for="leaseTerm"> Lease term: </label>
-        </td>
-        <td>
-          <input type="text" name="leaseTerm">
-        </td>
-      </tr>
-      </br>
-      <tr>
-        <td>
-          <label for="Price"> Price: </label>
-        </td>
-        <td>
-          <input type="text" name="Price">
-        </td>
-      </tr>
-    </form>
-    </table>
- 
-<!-- Right side of the page-->
-<table id="right">
-    <form>
-        <tr>
-            <td>
-                <select>
-                    <option> Specifying Workspace </option>
-                    <option> Meeting Room </option>
-                    <option> Private Office Room </option>
-                    <option> A Desk in an Open Work Area </option>
-                </select>
-            </td>
-        </tr>
-        <!-- Check for propert with parking -->
-        <tr>
-            <td>
-                <label for="Parking"> With parking: </label>
-            </td>
-            <td>
-                <input type="checkbox" name="Parking">
-            </td>
-        </tr>
-        <!-- Check for close to public transportaion-->
-        <tr>
-            <td>
-                <label for="Transportaion"> Close to public transportation: </label>
-            </td>
-            <td>
-                <input type="checkbox" name="Transportaion">
-            </td>
-        </tr>
-        <!-- Check for smoking-->
-        <tr>
-            <td>
-                <label for="Smoking"> With smoking: </label>
-            </td>
-            <td>
-                <input type="checkbox" name="Smoking">
-            </td>
-        </tr>
-        <!--Specify the number of individuals can seat--->
-        <tr>
-            <td>
-                <label for="Number"> Specify the number of individuals can seat:</label>
-            </td>
-            <td>
-                <input type="text" name="Number">
-            </td>
-        </tr>
-    </form>
-</table>
- 
-    <!-- Right side of the page-->
-    <table id="bottom">
-        <form>
-            <tr>
-                <td>
-                    <label for="Search for Owner">Search for Owner</label>
-                </td>
-            </tr>
-        </form>
-    </table>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
- 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-    <button style="float: right; margin-right: 250px; color: white; background-color: rgb(93, 238, 166);  border: none; width: 100px; height: 50px; border-radius: 9px;"> Get Contact Information </button>
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-    <div id="Footer">
-        <hr>
-        <footer>
-            <p style="color:blue;"> <u>  About Us </u> </p>
-            <p style="color:blue;"> <u>  Location: Calgary,Alberta </u> </p>
-            <p>  Copyright @ 2024 </p>
-            <p id="copyrightInformation"> <b> We reserve the right to refuse anyone from doing business with us.</br>
-                Damage to a unit will result in added cost and even criminial charges being laid. </br>
-                Background check is done on both owners and coworkers.</b> </p>
-        </footer>
+    <!-- Navigation Bar -->
+    <nav class="nav">
+        <h2>Co-Worker's Page</h2>
+    </nav>
+
+<main>
+    <form action="">
+        
+    <div id="lefty">
+        <table class="left">
+
+            <!-- Name of Property Search -->
+            <tr>
+                <th>
+                    <label for="Name">Search for Property:</label>
+                </th>
+                <td>
+                    <input type="text" name="property-search">
+                </td>
+            </tr>
+
+            <!-- Property Address -->
+            <tr>
+                <th>
+                    <label for="propertyAddress">Search for Property Address: </label>
+                </th>
+                <td>
+                    <input type="text" name="propertyAddress">
+                </td>
+            </tr>
+
+            <!-- Neighbourhood -->
+            <tr>
+                <th>
+                    <label for="Neighborhood">Search for Neighborhood:</label>
+                </th>
+                <td>
+                    <input type="text" name="Neighborhood">
+                </td>
+            </tr>
+
+            <!-- Square Footage of Office -->
+            <tr>
+                <th>
+                    <label for="SF">Square Footage Required:</label>
+                </th>
+                <td>
+                    <input type="number" name="SF">
+                </td>
+            </tr>
+
+            <!-- Duration of Lease -->
+            <tr>
+                <th>
+                    <label for="leaseTerm"> Lease Term: </label>
+                </th>
+                <td>
+                    <input type="text" name="leaseTerm">
+                </td>
+            </tr>
+
+            <!-- Price for Lease -->
+            <tr>
+                <th>
+                    <label for="Price"> Price: </label>
+                </th>
+                <td>
+                    <input type="text" name="Price">
+                </td>
+            </tr>
+
+        </table>
     </div>
- 
+
+    <div id="righty">
+        <table class="right">
+
+            <!-- Check Box for Property with Parking -->
+            <tr>
+                <th>
+                    <label for="Parking"> With Parking: </label>
+                </th>
+                <td>
+                    <input type="checkbox" name="Parking">
+                </td>
+            </tr>
+
+            <!-- Check Box for Accessible by Public Transit -->
+            <tr>
+                <th>
+                    <label for="Transportaion"> Close to Public Transportation: </label>
+                </th>
+                <td>
+                    <input type="checkbox" name="Transportaion">
+                </td>
+            </tr>
+
+            <!-- Check Box for Smoking Permitted in Office -->
+            <tr>
+                <th>
+                    <label for="Smoking"> Smoking Permitted: </label>
+                </th>
+                <td>
+                    <input type="checkbox" name="Smoking">
+                </td>
+            </tr>
+
+            <!-- Amount of Office Workers -->
+            <tr>
+                <th>
+                    <label for="Number"> Specify the Number of Office Staff: </label>
+                </th>
+                <td>
+                    <input type="text" name="Number">
+                </td>
+            </tr>
+
+            <!-- Pull-down Menu -->
+            <tr>
+                <th>
+                    <label for="Specify">Specify Preferred Space:</label>
+                </th>
+                <td>
+                    <select>
+                        <option>Select</option>
+                        <option> Meeting Room </option>
+                        <option> Private Office Room </option>
+                        <option> A Desk in an Open Work Area </option>
+                    </select>
+                </td>
+            </tr>
+
+            <!-- Run Search for Owner -->
+            <tr>
+                <th>
+                    <label for="Search for Owner">Search for Owner:</label>
+                </th>
+                <td>
+                    <input type="text" name="Search">
+                </td>
+            </tr>
+
+        </table>
+    </div>
+
+    </form>
+</main>
+
+    <div class="center">
+        <button> Submit Information </button>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <p>&copy; 2024</p>
+            <p id="copyright"><b>We reserve the right to refuse anyone from doing business with us.
+            Damage to a unit will result in added cost and even criminial charges being laid.  
+            Background check is done on both owners and coworkers.</b></p> 
+        </div>  
+    </footer>
+
 </body>
 </html>
