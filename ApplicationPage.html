@@ -22,6 +22,7 @@
 
 <main>
   <div id="lefty">
+    <form > 
     <table class="left">
       
       <!-- Name for the property -->
@@ -30,7 +31,7 @@
           <label for="Name"> Enter a Name for the Property: </label>
         </th>
         <td> 
-          <input type="text" name="Name" >
+          <input type="text" name="Name" id="Name">
         </td>
       </tr>
 
@@ -40,7 +41,7 @@
           <lable for="propertyAddress"> Enter Property Address: </lable>
         </th>
         <td>
-          <input type="text" name="propertyAdress" >
+          <input type="text" name="propertyAddress" id="propertyAddress" >
         </td>
       </tr>
 
@@ -50,7 +51,7 @@
           <label for="Neighbourhood"> Neighbourhood: </label>
         </th>
         <td>
-          <input type="text" name="Neighbourhood" >
+          <input type="text" name="Neighbourhood" id="Neighbourhood" >
         </td>
       </tr>
 
@@ -60,7 +61,7 @@
           <label for="AD"> Availibilty Date: </label>
         </th>
         <td>
-          <input type="text" name="AD">
+          <input type="text" name="AD" id="AvailibiltyDate">
         </td>
       </tr>
 
@@ -70,7 +71,7 @@
           <label for="leaseTerm"> Lease Term: </label>
         </th>
         <td>
-          <input type="text" name="leaseTerm">
+          <input type="text" name="leaseTerm" id="leaseTerm">
         </td>
       </tr>
     
@@ -80,7 +81,7 @@
           <label for="Price"> Price: </label>
         </th>
         <td>
-          <input type="text" name="Price">
+          <input type="text" name="Price" id="Price">
         </td>
       </tr>
 
@@ -98,9 +99,9 @@
         <td> 
           <select>
             <option> Select </option>
-            <option> Meeting Room  </option>
-            <option> Private Office Room </option>
-            <option> A Desk in an Open Work Area </option>
+            <option id="Preferredwork"> Meeting Room  </option>
+            <option id=" Preferredwork"> Private Office Room </option>
+            <option id="Preferredwork"> A Desk in an Open Work Area </option>
           </select>
         </td>
       </tr>
@@ -111,17 +112,17 @@
           <label for="Parking"> With/without Parking: </label>
         </th>
         <td>
-          <input type="checkbox" name="Parking">
+          <input type="checkbox" name="Parking" id="Parking">
         </td>
       </tr>
 
       <!-- Property has no transportaion or with transportaion-->
       <tr>
         <th>
-          <label for="Transportaion"> With/without Transportation: </label>
+          <label for="Transportation"> With/without Transportation: </label>
         </th>
         <td>
-          <input type="checkbox" name="Transportaion">
+          <input type="checkbox" name="Transportation" id="Transportation">
         </td>
       </tr>
 
@@ -131,7 +132,7 @@
           <label for="Smoking"> With/without Smoking: </label>
         </th>
         <td>
-          <input type="checkbox" name="Smoking">
+          <input type="checkbox" name="Smoking" id="Smoking">
         </td>
       </tr>
 
@@ -141,7 +142,7 @@
           <label for="Number"> Specify the Number of Individuals in Party:</label>
         </th>
         <td>
-          <input type="text" name="Number">
+          <input type="text" name="Number" id="Number">
         </td>
       </tr>
 
@@ -169,7 +170,7 @@
           </select>
         </td>
         <td>
-          <button> Add Properties </button>
+          <button id="addProperties"> Add Properties </button>
         </td>
       </tr>
 
@@ -230,6 +231,6 @@
     </div>  
   </footer>
 
-
+<script src="owner.js"> </script>
 </body>
 </html>
